@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/stage-2eme-annee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/stage-3eme-annee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISO_C++_Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Logo.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kubernetes_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Laravel.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PHP-logo.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SIAME.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cle-molette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/UML_bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/app-f9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/dict_donnees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/endpoints-backend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/ngrx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e-scm/recettage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/moto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pexels-eberhardgross-1287145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/photographie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pyscada/documentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pyscada/manage-profiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pyscada/manage-saves.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pyscada/profil-creation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pyscada/pyscada-bash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skateboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springboot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telescope.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xu8TN0qLW7DkuGmX8RUI33YMCk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rgoua/IdeaProjects/portfolio/projects&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rgoua\IdeaProjects\portfolio\projects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rgoua\IdeaProjects\portfolio\src\e-scm" />
+      <recent name="C:\Users\rgoua\IdeaProjects\portfolio\src" />
+      <recent name="C:\Users\rgoua\IdeaProjects\portfolio\src\pyscada" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="" />
+      <created>1748776609736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748776609736</updated>
+      <workItem from="1748776610777" duration="13066000" />
+      <workItem from="1748846474535" duration="31000" />
+      <workItem from="1748846514854" duration="13151000" />
+      <workItem from="1749495100132" duration="15573000" />
+      <workItem from="1749535195130" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
