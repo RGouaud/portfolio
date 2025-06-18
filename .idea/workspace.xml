@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="Mise en évidence des sous-textes de présentation des projets">
+    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="réorganisation des compétences">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <workItem from="1748846514854" duration="13151000" />
       <workItem from="1749495100132" duration="15573000" />
       <workItem from="1749535195130" duration="1673000" />
-      <workItem from="1750280120672" duration="224000" />
+      <workItem from="1750280120672" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="ajout readme.md">
       <option name="closed" value="true" />
@@ -104,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749536270020</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="réorganisation des compétences">
+      <option name="closed" value="true" />
+      <created>1750280365337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750280365337</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="ajout readme.md" />
     <MESSAGE value="correction chemin logo e-scm" />
     <MESSAGE value="Mise en évidence des sous-textes de présentation des projets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en évidence des sous-textes de présentation des projets" />
+    <MESSAGE value="réorganisation des compétences" />
+    <option name="LAST_COMMIT_MESSAGE" value="réorganisation des compétences" />
   </component>
 </project>
