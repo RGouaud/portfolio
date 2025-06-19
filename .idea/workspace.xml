@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="réorganisation des compétences">
+    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="réfaction display compétences">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/stage-3eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-3eme-annee.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1748846514854" duration="13151000" />
       <workItem from="1749495100132" duration="15573000" />
       <workItem from="1749535195130" duration="1673000" />
-      <workItem from="1750280120672" duration="664000" />
+      <workItem from="1750280120672" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="ajout readme.md">
       <option name="closed" value="true" />
@@ -112,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750280365337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="réfaction display compétences">
+      <option name="closed" value="true" />
+      <created>1750280848835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750280848835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +142,7 @@
     <MESSAGE value="correction chemin logo e-scm" />
     <MESSAGE value="Mise en évidence des sous-textes de présentation des projets" />
     <MESSAGE value="réorganisation des compétences" />
-    <option name="LAST_COMMIT_MESSAGE" value="réorganisation des compétences" />
+    <MESSAGE value="réfaction display compétences" />
+    <option name="LAST_COMMIT_MESSAGE" value="réfaction display compétences" />
   </component>
 </project>
