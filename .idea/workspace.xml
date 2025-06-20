@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="réfaction display compétences">
+    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="Réfaction display compétences 2eme année border">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/stage-2eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-2eme-annee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/stage-3eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-3eme-annee.html" afterDir="false" />
@@ -33,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -127,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750280848835</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="overflow hidden sur les projets">
+      <option name="closed" value="true" />
+      <created>1750324958948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750324958948</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Réfaction display compétences 2eme année border">
+      <option name="closed" value="true" />
+      <created>1750325255470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750325255470</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +181,8 @@
     <MESSAGE value="Mise en évidence des sous-textes de présentation des projets" />
     <MESSAGE value="réorganisation des compétences" />
     <MESSAGE value="réfaction display compétences" />
-    <option name="LAST_COMMIT_MESSAGE" value="réfaction display compétences" />
+    <MESSAGE value="overflow hidden sur les projets" />
+    <MESSAGE value="Réfaction display compétences 2eme année border" />
+    <option name="LAST_COMMIT_MESSAGE" value="Réfaction display compétences 2eme année border" />
   </component>
 </project>
