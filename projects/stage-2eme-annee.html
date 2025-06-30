@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio - GOUAUD Romain - stage 2ème année - SIAME</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="../src/js/carousel.js"></script>
+  <script src="../src/js/carousel.js" defer></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <style>
     html {
@@ -106,10 +106,10 @@
 <!-- Script bash installation -->
 <div id="bash-anchor" class="pt-18 mt-10"></div>
 <section id="bash" class="py-20 bg-[#40445A]">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
 
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-right">
+    <div data-aos="fade-right">
       <h2 class="text-2xl font-bold mb-6">Automatisation de l'installation</h2>
       <p class="mb-4">
         Durant mon stage, j’ai développé un <strong>script Bash d’installation automatisée</strong> de PyScada.
@@ -124,7 +124,7 @@
     </div>
 
     <!-- Image -->
-    <div class="lg:w-1/2" data-aos="fade-left">
+    <div data-aos="fade-left">
       <img src="../src/pyscada/pyscada-bash.png" alt="Script d'installation PyScada"
            class="w-full rounded-lg shadow-lg border border-gray-600" />
     </div>
@@ -133,16 +133,9 @@
 
 <div id="documentation-anchor" class="pt-18 mt-10"></div>
 <section id="documentation" class="py-20">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
-
-    <!-- Image -->
-    <div class="lg:w-1/2" data-aos="fade-right">
-      <img src="../src/pyscada/documentation.png" alt="documentation utilisateur"
-           class="w-full rounded-lg shadow-lg border border-gray-600" />
-    </div>
-
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-left">
+    <div data-aos="fade-left" class="sm:order-last">
       <h2 class="text-2xl font-bold mb-6">Documentation</h2>
       <p class="mb-4">
         J’ai rédigé une <strong>documentation complète</strong> pour guider les utilisateurs dans l’installation et l’utilisation de l’application.
@@ -154,6 +147,12 @@
         L’objectif était de garantir une <strong>transmission claire et accessible</strong> des informations à l’ensemble des utilisateurs.
       </p>
     </div>
+
+    <!-- Image -->
+    <div data-aos="fade-right">
+      <img src="../src/pyscada/documentation.png" alt="documentation utilisateur"
+           class="w-full rounded-lg shadow-lg border border-gray-600" />
+    </div>
   </div>
 </section>
 
@@ -161,10 +160,10 @@
 <!-- Plugin de sauvegarde -->
 <div id="plugin-save-anchor" class="pt-18 mt-10"></div>
 <section id="plugin-save" class="py-20 bg-[#40445A]">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
 
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-right">
+    <div data-aos="fade-right">
       <h2 class="text-2xl font-bold mb-6">Plugin de sauvegarde</h2>
 
       <p class="mb-4">
@@ -188,26 +187,10 @@
       </p>
     </div>
 
-    <!-- Image -->
-    <div class="carousel-container flex flex-col w-full sm:w-2/3" data-carousel="carousel1">
-      <div class="carousel overflow-hidden relative rounded-lg shadow-lg border border-gray-600">
-        <div class="carousel-inner whitespace-nowrap transition-transform duration-500 ease-in-out">
-          <img src="../src/pyscada/profil-creation.png" alt="Plugin 1" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/pyscada/manage-profiles.png" alt="Plugin 2" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/pyscada/manage-saves.png" alt="Plugin 3" class="inline-block w-full flex-shrink-0" />
-        </div>
-
-        <!-- Buttons -->
-        <button class="carousel-prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10094;</button>
-        <button class="carousel-next absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10095;</button>
-      </div>
-
-      <!-- Dots -->
-      <div class="carousel-dots flex justify-center mt-4 space-x-3">
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 1"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 2"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 3"></button>
-      </div>
+    <div class="carousel" data-height="500" data-aos="fade-left">
+      <img class="carousel-element" src="../src/pyscada/profil-creation.png" alt="Plugin 1">
+      <img class="carousel-element" src="../src/pyscada/manage-profiles.png" alt="Plugin 2">
+      <img class="carousel-element" src="../src/pyscada/manage-saves.png" alt="Plugin 3">
     </div>
   </div>
 </section>

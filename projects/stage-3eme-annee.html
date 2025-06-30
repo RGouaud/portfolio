@@ -6,7 +6,7 @@
   <title>Portfolio - GOUAUD Romain - stage 3ème année - E-SCM</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script src="../src/js/carousel.js"></script>
+  <script src="../src/js/carousel.js" defer></script>
   <style>
     html {
       scroll-behavior: smooth;
@@ -109,37 +109,25 @@
 <!-- modelisation BD-->
 <div id="modelisation-anchor" class="pt-18 mt-10"></div>
 <section id="modelisation" class="py-20 bg-[#40445A]">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-right">
+    <div data-aos="fade-right">
       <h2 class="text-2xl font-bold mb-6">Modélisation de la base de données</h2>
       <p class="mb-4">
         La base de données a été conçue avec un modèle spécifique pour la messagerie. Toutes les tables sont préfixées
-        par <code>chat_</code> pour une meilleure lisibilité.
+        par chat_ pour une meilleure lisibilité.
+      </p>
+      <p class="mb-4">
+        Une table déjà existante est utilisé pour retrouver les utilisateurs du système et les relier à leurs messages.
       </p>
       <p class="mb-4">
         Ce modèle permettait de bâtir toute la logique applicative du backend et les endpoints associés.
       </p>
     </div>
 
-    <!-- Image -->
-    <div class="carousel-container flex flex-col w-full sm:w-2/3" data-carousel="carousel1">
-      <div class="carousel overflow-hidden relative rounded-lg shadow-lg border border-gray-600">
-        <div class="carousel-inner whitespace-nowrap transition-transform duration-500 ease-in-out">
-          <img src="../src/e-scm/UML_bd.png" alt="Modelisation UML de la base de données" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/dict_donnees.png" alt="Dictionnaire des données de la base de données" class="inline-block w-full flex-shrink-0" />
-        </div>
-
-        <!-- Buttons -->
-        <button class="carousel-prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10094;</button>
-        <button class="carousel-next absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10095;</button>
-      </div>
-
-      <!-- Dots -->
-      <div class="carousel-dots flex justify-center mt-4 space-x-3">
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 1"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 2"></button>
-      </div>
+    <div class="carousel" data-height="500" data-aos="fade-left">
+      <img class="carousel-element" src="../src/e-scm/UML_bd.png" alt="Modelisation UML de la base de données">
+      <img class="carousel-element" src="../src/e-scm/dict_donnees.png" alt="Dictionnaire des données de la base de données">
     </div>
   </div>
 </section>
@@ -147,9 +135,9 @@
 <!-- Fonctionnalités backend -->
 <div id="backend-anchor" class="pt-18 mt-10"></div>
 <section  id="backend" class="py-20">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row-reverse items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-left">
+    <div data-aos="fade-left" class="sm:order-last">
       <h2 class="text-2xl font-bold mb-6">Fonctionnalités du backend</h2>
       <p class="mb-4">
         À partir du modèle de données, les fonctionnalités ont été définies, et les endpoints implémentés avec
@@ -162,7 +150,7 @@
     </div>
 
     <!-- Image -->
-    <div class="lg:w-1/2">
+    <div data-aos="fade-right">
       <img src="../src/e-scm/endpoints-backend.png" alt="Interface Swagger montrant les endpoints backend" class="w-full rounded-lg shadow-lg border border-gray-600">
     </div>
   </div>
@@ -171,9 +159,9 @@
 <!-- La messagerie-->
 <div id="chat-anchor" class="pt-18 mt-10"></div>
 <section id="messagerie" class="py-20 bg-[#40445A]">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center">
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-right">
+    <div data-aos="fade-right">
       <h2 class="text-2xl font-bold mb-6">La messagerie</h2>
       <p class="mb-4">
         Voici un aperçu des différentes interfaces utilisateurs réalisées : liste de conversations, création, envoi,
@@ -186,35 +174,14 @@
     </div>
 
     <!-- Image -->
-    <div class="carousel-container flex flex-col h-full sm:w-1/3" data-carousel="carousel2">
-      <div class="carousel overflow-hidden relative rounded-lg shadow-lg border border-gray-600">
-        <div class="carousel-inner w-full whitespace-nowrap transition-transform duration-500 ease-in-out">
-          <img src="../src/e-scm/app-f2.png"  alt="Création d'une nouvelle conversation" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/app-f3.png"  alt="Rechercher d'utilisateurs" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/app-f4.png"  alt="Utilisateur déjà selectionné" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/app-f5.png"  alt="Conversation créée" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/app-f6.png"  alt="Début de conversation" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/app-f9.png"  alt="Parametres de conversation" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/app-f10.png"  alt="Renommage d'une conversation" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/e-scm/app-f11.png"  alt="Conversation renommée, affichage dans la discussion de cette modification" class="inline-block w-full flex-shrink-0" />
-        </div>
-
-        <!-- Buttons -->
-        <button class="carousel-prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10094;</button>
-        <button class="carousel-next absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10095;</button>
-      </div>
-
-      <!-- Dots -->
-      <div class="carousel-dots flex justify-center mt-4 space-x-3">
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 1"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 2"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 3"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 4"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 5"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 6"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 7"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 8"></button>
-      </div>
+    <div class="carousel" data-height="500" data-aos="fade-left">
+      <img class="carousel-element" src="../src/e-scm/app-f2.png"  alt="Création d'une nouvelle conversation">
+      <img class="carousel-element" src="../src/e-scm/app-f3.png"  alt="Rechercher d'utilisateurs">
+      <img class="carousel-element" src="../src/e-scm/app-f4.png"  alt="Utilisateur déjà selectionné">
+      <img class="carousel-element" src="../src/e-scm/app-f5.png"  alt="Conversation créée">
+      <img class="carousel-element" src="../src/e-scm/app-f6.png"  alt="Début de conversation">
+      <img class="carousel-element" src="../src/e-scm/app-f9.png"  alt="Parametres de conversation">
+      <img class="carousel-element" src="../src/e-scm/app-f10.png"  alt="Renommage d'une conversation">
     </div>
   </div>
 </section>
@@ -222,9 +189,9 @@
 <!--ngrx et websocket -->
 <div id="ngrx-websocket-anchor" class="pt-18 mt-10"></div>
 <section id="ngrx-websocket" class="py-20">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row-reverse items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-left">
+    <div data-aos="fade-left" class="sm:order-last">
       <h2 class="text-2xl font-bold mb-6">NGRX & WebSockets</h2>
       <p class="mb-4">
         La bibliothèque NGRX a été utilisée pour résoudre des problèmes de synchronisation entre composants Angular
@@ -236,8 +203,8 @@
       </p>
     </div>
 
-    <!-- Image indicative -->
-    <div class="lg:w-1/2">
+    <!-- Image -->
+    <div data-aos="fade-right">
       <img src="../src/e-scm/ngrx.png" alt="Schéma NGRX" class="w-full rounded-lg shadow-lg">
     </div>
   </div>
@@ -246,9 +213,9 @@
 <!--ngrx et websocket -->
 <div id="test-anchor" class="pt-18 mt-10"></div>
 <section id="test" class="py-20 bg-[#40445A]">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-right">
+    <div data-aos="fade-right">
       <h2 class="text-2xl font-bold mb-6">Tests d'intégration</h2>
       <p class="mb-4">
         L’entreprise avait pour habitude d'effectuer uniquement des tests d'intégration, exécutés à la fin du
@@ -260,8 +227,8 @@
       </p>
     </div>
 
-    <!-- Image indicative -->
-    <div class="lg:w-1/2">
+    <!-- Image -->
+    <div data-aos="fade-left">
       <img src="../src/e-scm/recettage.png" alt="Extrait de cahier de recette de la messagerie" class="w-full rounded-lg shadow-lg">
     </div>
   </div>
