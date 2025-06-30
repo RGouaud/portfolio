@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="Réfaction script carousel, réorganisation de l'affichage flex en grid">
-      <change beforePath="$PROJECT_DIR$/src/js/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/carousel.js" afterDir="false" />
+    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="Patch AOS bug">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/stage-3eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-3eme-annee.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <workItem from="1749495100132" duration="15573000" />
       <workItem from="1749535195130" duration="1673000" />
       <workItem from="1750280120672" duration="2281000" />
-      <workItem from="1751298845699" duration="5772000" />
+      <workItem from="1751298845699" duration="6301000" />
     </task>
     <task id="LOCAL-00001" summary="ajout readme.md">
       <option name="closed" value="true" />
@@ -160,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751318768581</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Patch AOS bug">
+      <option name="closed" value="true" />
+      <created>1751319306559</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751319306559</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +205,7 @@
     <MESSAGE value="réorganisation des compétences" />
     <MESSAGE value="réfaction display compétences" />
     <MESSAGE value="Réfaction script carousel, réorganisation de l'affichage flex en grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Réfaction script carousel, réorganisation de l'affichage flex en grid" />
+    <MESSAGE value="Patch AOS bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patch AOS bug" />
   </component>
 </project>
