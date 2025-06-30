@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="Réfaction script carousel, réorganisation de l'affichage flex en grid">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/stage-2eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-2eme-annee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/stage-3eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-3eme-annee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/carousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,24 +22,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="wip" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RGouaud"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RGouaud&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RGouaud/portfolio.git",
-    "accountId": "988a6e0b-139b-4130-93fd-10e982cab56d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RGouaud/portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;988a6e0b-139b-4130-93fd-10e982cab56d&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -63,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "wip",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/rgoua/IdeaProjects/portfolio/projects",
     "list.type.of.created.stylesheet": "CSS",
@@ -108,7 +110,7 @@
       <workItem from="1749495100132" duration="15573000" />
       <workItem from="1749535195130" duration="1673000" />
       <workItem from="1750280120672" duration="2281000" />
-      <workItem from="1751298845699" duration="5295000" />
+      <workItem from="1751298845699" duration="5772000" />
     </task>
     <task id="LOCAL-00001" summary="ajout readme.md">
       <option name="closed" value="true" />
@@ -150,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750280848835</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Réfaction script carousel, réorganisation de l'affichage flex en grid">
+      <option name="closed" value="true" />
+      <created>1751318768581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751318768581</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +171,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

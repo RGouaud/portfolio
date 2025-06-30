@@ -81,4 +81,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         updateCarousel(); // Init
     });
+
+    if (typeof AOS !== 'undefined') {
+        setTimeout(() => AOS.refreshHard(), 100);
+    }
 });
