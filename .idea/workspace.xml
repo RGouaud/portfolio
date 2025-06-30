@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="correction chemin logo e-scm">
+    <list default="true" id="642e9683-41a5-4c81-89a3-38c5c6028c60" name="Changes" comment="Réfaction script carousel, réorganisation de l'affichage flex en grid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/stage-2eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-2eme-annee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/stage-3eme-annee.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/stage-3eme-annee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/carousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -26,36 +27,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RGouaud"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RGouaud/portfolio.git",
+    "accountId": "988a6e0b-139b-4130-93fd-10e982cab56d"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2xu8TN0qLW7DkuGmX8RUI33YMCk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rgoua/IdeaProjects/portfolio/projects&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "wip",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rgoua/IdeaProjects/portfolio/projects",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rgoua\IdeaProjects\portfolio\projects" />
@@ -65,6 +85,14 @@
       <recent name="C:\Users\rgoua\IdeaProjects\portfolio\src" />
       <recent name="C:\Users\rgoua\IdeaProjects\portfolio\src\pyscada" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +106,9 @@
       <workItem from="1748846474535" duration="31000" />
       <workItem from="1748846514854" duration="13151000" />
       <workItem from="1749495100132" duration="15573000" />
-      <workItem from="1749535195130" duration="1032000" />
+      <workItem from="1749535195130" duration="1673000" />
+      <workItem from="1750280120672" duration="2281000" />
+      <workItem from="1751298845699" duration="5295000" />
     </task>
     <task id="LOCAL-00001" summary="ajout readme.md">
       <option name="closed" value="true" />
@@ -96,7 +126,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749535779424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mise en évidence des sous-textes de présentation des projets">
+      <option name="closed" value="true" />
+      <created>1749536270020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749536270020</updated>
+    </task>
+    <task id="LOCAL-00004" summary="réorganisation des compétences">
+      <option name="closed" value="true" />
+      <created>1750280365337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750280365337</updated>
+    </task>
+    <task id="LOCAL-00005" summary="réfaction display compétences">
+      <option name="closed" value="true" />
+      <created>1750280848835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750280848835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +170,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout readme.md" />
     <MESSAGE value="correction chemin logo e-scm" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction chemin logo e-scm" />
+    <MESSAGE value="Mise en évidence des sous-textes de présentation des projets" />
+    <MESSAGE value="réorganisation des compétences" />
+    <MESSAGE value="réfaction display compétences" />
+    <MESSAGE value="Réfaction script carousel, réorganisation de l'affichage flex en grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Réfaction script carousel, réorganisation de l'affichage flex en grid" />
   </component>
 </project>

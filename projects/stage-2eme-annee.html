@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio - GOUAUD Romain - stage 2ème année - SIAME</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="../src/js/carousel.js"></script>
+  <script src="../src/js/carousel.js" defer></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <style>
     html {
@@ -14,7 +14,7 @@
   </style>
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-[#323949] text-[#FAF6E9] font-sans">
+<body class="bg-[#323949] text-[#FAF6E9] font-sans overflow-x-hidden">
 
 <nav class="fixed top-0 left-0 w-full z-50 bg-[#323949] bg-opacity-80 backdrop-blur-md shadow-md">
   <div class="flex justify-between items-center px-6 py-4 text-white">
@@ -39,12 +39,13 @@
   <div class="hidden sm:flex pb-24 pt-5 px-10 justify-around">
 
     <!--  Compétences -->
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center border border-2 rounded-lg pb-10">
       <p class="text-lg font-semibold text-gray-900 dark:text-white py-6"> Compétences </p>
       <div class="w-fit flex flex-wrap gap-3 justify-center max-w-xs">
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-green-900 text-green-300 h-fit">Communication interne</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-pink-900 text-pink-300 h-fit">Recueil du besoin</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-gray-700 text-gray-300 h-fit">Documentation utilisateur</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-blue-600 text-white text-sm font-medium shadow-md hover:scale-105 transition">Communication interne</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-red-600 text-white text-sm font-medium shadow-md hover:scale-105 transition">Modélisation UML</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-indigo-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">Recueil du besoin</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-emerald-700 text-white text-sm font-medium shadow-md hover:scale-105 transition">Documentation utilisateur</span>
       </div>
     </div>
 
@@ -53,13 +54,13 @@
     </div>
 
     <!--  Technologies -->
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center border border-2 rounded-lg pb-10">
       <p class="text-lg font-semibold text-gray-900 dark:text-white py-6"> Technologies </p>
       <div class="w-fit flex flex-wrap gap-3 justify-center max-w-xs">
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-blue-900 text-blue-300 h-fit">Python</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-indigo-900 text-indigo-300 h-fit">Django</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-yellow-900 text-yellow-300 h-fit">Bash</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-purple-900 text-purple-300 h-fit">MariaDB</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-orange-400 text-white text-sm font-medium shadow-md hover:scale-105 transition">Python</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-pink-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">Bash</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-emerald-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">Django</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-purple-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">MariaDB</span>
       </div>
     </div>
   </div>
@@ -71,25 +72,25 @@
       <img src="../src/SIAME.jpg" alt="logo SIAME" class="w-full rounded shadow-md">
     </div>
 
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center border border-2 rounded-lg pb-10">
       <p class="text-lg font-semibold text-gray-900 dark:text-white py-6"> Compétences </p>
       <div class="w-fit flex flex-wrap gap-3 justify-center">
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-green-900 text-green-300 h-fit">Communication interne</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-red-900 text-red-300 h-fit">Modélisation UML</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-pink-900 text-pink-300 h-fit">Recueil du besoin</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-gray-700 text-gray-300 h-fit">Documentation utilisateur</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-blue-600 text-white text-sm font-medium shadow-md hover:scale-105 transition">Communication interne</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-red-600 text-white text-sm font-medium shadow-md hover:scale-105 transition">Modélisation UML</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-indigo-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">Recueil du besoin</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-emerald-700 text-white text-sm font-medium shadow-md hover:scale-105 transition">Documentation utilisateur</span>
       </div>
     </div>
 
 
     <!--  Technologies -->
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center border border-2 rounded-lg pb-10">
       <p class="text-lg font-semibold text-gray-900 dark:text-white py-6"> Technologies </p>
       <div class="w-fit flex flex-wrap gap-3 justify-center max-w-xs">
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-blue-900 text-blue-300 h-fit">Python</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-indigo-900 text-indigo-300 h-fit">Django</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-yellow-900 text-yellow-300 h-fit">Bash</span>
-        <span class="text-xl font-medium me-2 px-2.5 py-0.5 rounded-xl bg-purple-900 text-purple-300 h-fit">MariaDB</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-orange-400 text-white text-sm font-medium shadow-md hover:scale-105 transition">Python</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-pink-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">Bash</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-emerald-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">Django</span>
+        <span class="text-xl font-medium px-3 py-1 rounded-xl bg-purple-800 text-white text-sm font-medium shadow-md hover:scale-105 transition">MariaDB</span>
       </div>
     </div>
   </div>
@@ -106,10 +107,10 @@
 <!-- Script bash installation -->
 <div id="bash-anchor" class="pt-18 mt-10"></div>
 <section id="bash" class="py-20 bg-[#40445A]">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
 
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-right">
+    <div data-aos="fade-right">
       <h2 class="text-2xl font-bold mb-6">Automatisation de l'installation</h2>
       <p class="mb-4">
         Durant mon stage, j’ai développé un <strong>script Bash d’installation automatisée</strong> de PyScada.
@@ -124,7 +125,7 @@
     </div>
 
     <!-- Image -->
-    <div class="lg:w-1/2" data-aos="fade-left">
+    <div data-aos="fade-left">
       <img src="../src/pyscada/pyscada-bash.png" alt="Script d'installation PyScada"
            class="w-full rounded-lg shadow-lg border border-gray-600" />
     </div>
@@ -133,16 +134,9 @@
 
 <div id="documentation-anchor" class="pt-18 mt-10"></div>
 <section id="documentation" class="py-20">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
-
-    <!-- Image -->
-    <div class="lg:w-1/2" data-aos="fade-right">
-      <img src="../src/pyscada/documentation.png" alt="documentation utilisateur"
-           class="w-full rounded-lg shadow-lg border border-gray-600" />
-    </div>
-
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-left">
+    <div data-aos="fade-left" class="sm:order-last">
       <h2 class="text-2xl font-bold mb-6">Documentation</h2>
       <p class="mb-4">
         J’ai rédigé une <strong>documentation complète</strong> pour guider les utilisateurs dans l’installation et l’utilisation de l’application.
@@ -154,6 +148,12 @@
         L’objectif était de garantir une <strong>transmission claire et accessible</strong> des informations à l’ensemble des utilisateurs.
       </p>
     </div>
+
+    <!-- Image -->
+    <div data-aos="fade-right">
+      <img src="../src/pyscada/documentation.png" alt="documentation utilisateur"
+           class="w-full rounded-lg shadow-lg border border-gray-600" />
+    </div>
   </div>
 </section>
 
@@ -161,10 +161,10 @@
 <!-- Plugin de sauvegarde -->
 <div id="plugin-save-anchor" class="pt-18 mt-10"></div>
 <section id="plugin-save" class="py-20 bg-[#40445A]">
-  <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+  <div class="container mx-auto px-6 sm:grid sm:grid-cols-2 flex flex-col items-center gap-12">
 
     <!-- Texte -->
-    <div class="lg:w-1/2" data-aos="fade-right">
+    <div data-aos="fade-right">
       <h2 class="text-2xl font-bold mb-6">Plugin de sauvegarde</h2>
 
       <p class="mb-4">
@@ -188,26 +188,10 @@
       </p>
     </div>
 
-    <!-- Image -->
-    <div class="carousel-container flex flex-col w-full sm:w-2/3" data-carousel="carousel1">
-      <div class="carousel overflow-hidden relative rounded-lg shadow-lg border border-gray-600">
-        <div class="carousel-inner whitespace-nowrap transition-transform duration-500 ease-in-out">
-          <img src="../src/pyscada/profil-creation.png" alt="Plugin 1" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/pyscada/manage-profiles.png" alt="Plugin 2" class="inline-block w-full flex-shrink-0" />
-          <img src="../src/pyscada/manage-saves.png" alt="Plugin 3" class="inline-block w-full flex-shrink-0" />
-        </div>
-
-        <!-- Buttons -->
-        <button class="carousel-prev absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10094;</button>
-        <button class="carousel-next absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-2">&#10095;</button>
-      </div>
-
-      <!-- Dots -->
-      <div class="carousel-dots flex justify-center mt-4 space-x-3">
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 1"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 2"></button>
-        <button class="dot w-3 h-3 rounded-full bg-gray-400" aria-label="Slide 3"></button>
-      </div>
+    <div class="carousel" data-height="500" data-aos="fade-left">
+      <img class="carousel-element" src="../src/pyscada/profil-creation.png" alt="Plugin 1">
+      <img class="carousel-element" src="../src/pyscada/manage-profiles.png" alt="Plugin 2">
+      <img class="carousel-element" src="../src/pyscada/manage-saves.png" alt="Plugin 3">
     </div>
   </div>
 </section>
